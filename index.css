@@ -1,0 +1,7 @@
+.actions {
+  text-align: right;
+}
+.item-list {
+  display: flex;
+  flex-direction: column;
+}

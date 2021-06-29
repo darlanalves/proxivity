@@ -21,7 +21,9 @@
   "homepage": "https://github.com/homebots/typescript-template#readme",
   "devDependencies": {
     "@types/jest": "^26.0.23",
+    "@types/node": "^15.12.2",
     "jest": "^27.0.4",
+    "prettier": "^2.3.2",
     "ts-jest": "^27.0.3",
     "ts-node": "^10.0.0"
   }

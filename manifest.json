@@ -1,0 +1,18 @@
+{
+  "name": "Proxivity",
+  "description": "Proxy switcher for Mac",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "permissions": ["scripting"],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["js/main.js"]
+    }
+  ],
+
+  "web_accessible_resources": [{ "resources": ["index.html", "index.css"], "matches": ["http://*/*", "https://*/*"] }],
+  "action": {
+    "default_popup": "index.html"
+  }
+}
