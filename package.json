@@ -1,0 +1,28 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "description": "A template for Typescript projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/homebots/typescript-template.git"
+  },
+  "keywords": [
+    "homebots"
+  ],
+  "author": "Darlan Alves <me@darlanalv.es>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/homebots/typescript-template/issues"
+  },
+  "homepage": "https://github.com/homebots/typescript-template#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.4",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.0.0"
+  }
+}
